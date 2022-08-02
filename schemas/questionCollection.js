@@ -19,7 +19,7 @@ const questionCollection = mongoose.Schema({
     },
     userAnswer:{
         type:String,
-        required:true
+        
     }
 })
 
