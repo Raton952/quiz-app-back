@@ -16,7 +16,7 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 
 // database connection
-mongoose.connect("mongodb://localhost/quiz_app",{
+mongoose.connect("mongodb+srv://raton:940sWTnBQFGKxT5c@cluster0.gbuagbg.mongodb.net/quiz_app?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }).then(()=>{
