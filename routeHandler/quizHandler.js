@@ -25,7 +25,7 @@ router.post("/quiztitle", checkLogin, async (req, res) => {
 
 // get title
 
-router.get("/quiztitle", checkLogin, async (req, res) => {
+router.get("/quiztitle",  async (req, res) => {
   try {
     await Title.find().exec((err, data) => {
       if (err) {
